@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 1023px) {
+}
+@media only screen and (max-width: 767px) {
+    .main h1{
+        font-size: 150%;
+        text-align: center;
+    }
+    .main p{
+        font-size: 90%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .container{
+        padding: 0 30px;
+    }
+    .main h1{
+        font-size: 120%;
+        text-align: center;
+    }
+    .main p{
+        font-size: 70%;
+        text-align: center;
+    }
+}

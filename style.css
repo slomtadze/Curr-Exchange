@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 20px;
+}
+
+.container {
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.main img{
+    width: 170px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.main h1{
+    font-size: 200%;
+    letter-spacing: 1px;
+    color: darkcyan;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.main p {
+    margin-bottom: 20px;
+    font-size: 100%;
+    width: 100%;
+}
+
+.currency {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.currency select{
+    font-size: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+.currency input,
+.currency div {
+    font-size: 130%;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+}
+.currency div {
+    background-color: #fff;
+    padding: 10px;
+}
+.swap-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+button {
+    padding: 8px;
+    border: none;
+    background-color: darkcyan;
+    border-radius: 5px;
+    color: #fff;
+    height: 30px;
+    width: 60px;
+}
+button:hover,
+button:active {
+    cursor: pointer;
+}
+span {
+    font-size: 90%;
+    color: darkcyan;
+    letter-spacing: 1px;
+}
